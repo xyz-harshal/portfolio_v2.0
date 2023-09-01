@@ -83,11 +83,11 @@ a {
     padding-left: 1rem;
     padding-right:1rem ;
     border-radius: 2rem;
-    transition: transform 0.3s ease;
+    /* transition: transform 0.3s ease; */
     font-size: 1.3rem;
     font-family: 'Raleway', sans-serif;
     color: black;
 }
-.toggle-dropdown p:hover{
+/* .toggle-dropdown p:hover{
     transform: translateX(10px);
-}
+} */
