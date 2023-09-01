@@ -1,6 +1,7 @@
 #Home {
-    
-    margin: 140px 8%;
+    padding-top: 140px ;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .home-header {
@@ -9,7 +10,8 @@
 }
 
 .my-name {
-    background-image: linear-gradient(243.3deg, rgb(247, 164, 216) 35.7%, rgb(115, 102, 252) 121.6%);
+    background-image: linear-gradient(57.4deg, rgb(249, 206, 183) 4.6%, rgb(234, 174, 202) 26%, rgb(210, 182, 226) 49.1%, rgb(173, 209, 242) 86.5%);
+    /* background-image: linear-gradient(243.3deg, rgb(247, 164, 216) 35.7%, rgb(115, 102, 252) 121.6%); */
     background-clip: text;
     -webkit-background-clip: text;
     /* For Safari */

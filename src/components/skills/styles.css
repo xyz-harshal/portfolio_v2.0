@@ -1,0 +1,118 @@
+#Skills{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-top: 140px;
+}
+.skills-head p{
+    font-size: 3.5rem;
+    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(57.4deg, rgb(249, 206, 183) 4.6%, rgb(234, 174, 202) 26%, rgb(210, 182, 226) 49.1%, rgb(173, 209, 242) 86.5%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* For Safari */
+    color: transparent;
+}
+.tech-head-name p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;  
+}
+.tech-logo{
+    font-size: 2rem;
+}
+.tech-logo *:hover{
+    transform: translateY(-.8px);
+   color: rgb(234, 174, 202);
+}
+@media(max-width:1200px) and (min-width:1000px){
+    .skills-head p{
+        font-size: 3.2rem;
+    }
+    .tech-head-name p{
+        font-size: 1.8rem;
+    }
+    .tech-logo{
+        font-size: 1.8rem;
+    }
+    .skills-main{
+        gap: 3.2rem;
+    }
+    .tech-head-items{
+        gap: 2.7rem;
+    }
+}
+@media(max-width:1000px) and (min-width:870px){
+    .skills-head p{
+        font-size: 3rem;
+    }
+    .tech-head-name p{
+        font-size: 1.6rem;
+    }
+    .tech-logo{
+        font-size: 1.6rem;
+    }
+    .skills-main{
+        gap: 3rem;
+    }
+    .tech-head-items{
+        gap: 2rem;
+    }
+}
+@media(max-width:870px) and (min-width:730px){
+    .skills-head p{
+        font-size: 2.5rem;
+    }
+    .tech-head-name p{
+        font-size: 1.4rem;
+    }
+    .tech-logo{
+        font-size: 1.4rem;
+    }
+    .skills-main{
+        gap: 2.5rem;
+    }
+    .tech-head-items{
+        gap: 1.5rem;
+    }
+}
+@media(max-width:730px) and (min-width:550px){
+    .skills-head p{
+        font-size: 2.1rem;
+    }
+    .tech-head-name p{
+        font-size: 1.1rem;
+    }
+    .tech-logo{
+        font-size: 1.2rem;
+    }
+    .skills-main{
+        gap: 2.1rem;
+    }
+    .tech-head-items{
+        gap: 1.4rem;
+    }
+}
+@media(max-width:550px){
+    .skills-head p{
+        font-size: 1.8rem;
+    }
+    .tech-head-name p{
+        font-size: .6rem;
+    }
+    .tech-logo{
+        font-size: .9rem;
+    }
+    .skills-main{
+        gap: 1.7rem;
+    }
+    .tech-head-items{
+        gap: 1rem;
+    }
+}
+.skills-main{
+    border: 1px solid hsla(0,0%,100%,.2);
+    border-radius: 3rem;
+    transition: .3s ease;
+}
+.skills-main:hover{
+    transform: scale(1.01);
+}

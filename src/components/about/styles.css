@@ -1,0 +1,16 @@
+#About{
+    padding-top: 4rem;
+    margin-left: 8%;
+    margin-right: 8%;
+padding-bottom: 4rem;
+}
+.about{
+    border: 1px solid hsla(0,0%,100%,.2);
+    border-radius: 2rem;
+    padding: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    transition: .3s ease;
+}
+.about:hover{
+    transform: scale(1.01);
+}
