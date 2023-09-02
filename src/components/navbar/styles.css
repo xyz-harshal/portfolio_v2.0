@@ -26,7 +26,11 @@ a {
     color: white;
     text-decoration: none;
 }
-
+.top-nav-bar-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .top-nav-bar-items:hover a {
     filter: blur(2.5px);
     
