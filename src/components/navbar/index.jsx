@@ -7,7 +7,7 @@ let Navbar = () => {
         <section id="Navbar">
             <div className="navbar flex flex-row gap-x-8 justify-between">
                 <div className="flex flex-row">
-                    <p>harshal</p>
+                    <p className="navu-head">harshal</p>
                 </div>
                 <GiHamburgerMenu size={"1.5rem"} className={navToggle ? " invincible " : " self-center hamburger "} onClick={() => setNavToggle(!navToggle)} />
                 <GiCancel size={"1.5rem"} className={navToggle ? "self-center cancel" : "invincible"} onClick={() => setNavToggle(!navToggle)} />
