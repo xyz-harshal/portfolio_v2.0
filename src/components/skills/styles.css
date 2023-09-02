@@ -97,7 +97,7 @@
         font-size: 1.3rem;
     }
 }
-@media(max-width:550px){
+@media(max-width:550px) and (min-width:400px){
     .skills-head p{
         font-size: 1.8rem;
     }
@@ -110,5 +110,20 @@
     .tech-head-items{
         gap: .9rem;
         font-size: .9rem;
+    }
+}
+@media(max-width:400px){
+    .skills-head p{
+        font-size: 1.8rem;
+    }
+    .tech-head-name p{
+        font-size: .8rem;
+    }
+    .skills-main{
+        gap: .8rem;
+    }
+    .tech-head-items{
+        gap: .8rem;
+        font-size: .8rem;
     }
 }
