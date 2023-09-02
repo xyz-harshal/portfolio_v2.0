@@ -27,12 +27,12 @@ a {
     text-decoration: none;
 }
 
-.navu-items:hover a {
+.top-nav-bar-items:hover a {
     filter: blur(2.5px);
     
 }
 
-.navu-items:hover a:hover {
+.top-nav-bar-items:hover a:hover {
     
     filter: blur(0px);
     transform: translateY(-2px);
@@ -40,7 +40,7 @@ a {
     
 }
 
-.navu-items a {
+.top-nav-bar-items a {
     cursor: pointer;
     transition: transform 0.3s ease-in;
     color: black;
@@ -58,7 +58,7 @@ a {
 }
 
 @media (max-width:730px) {
-    .navu-items {
+    .top-nav-bar-items {
         display: none;
     }
     .navbar{
