@@ -12,7 +12,7 @@ let Skills = () => {
                 <div className="tech-head-name">
                     <p>FRONT END TECH</p>
                 </div>
-                <div className="tech-head-items flex flex-row tech-logo items-center gap-14">
+                <div className="tech-head-items">
                     <FaReact />
                     <BiLogoTailwindCss />
                     <BsFiletypeXml />
