@@ -12,12 +12,12 @@ let Navbar = () => {
                 {/* <GiHamburgerMenu size={"1.5rem"} className={navToggle ? " invincible " : " self-center hamburger "} onClick={() => setNavToggle(!navToggle)} />
                 <GiCancel size={"1.5rem"} className={navToggle ? "self-center cancel" : "invincible"} onClick={() => setNavToggle(!navToggle)} /> */}
 
-                <div className="flex flex-row justify-center gap-x-8 navu-items">
+                {/* <div className="flex flex-row justify-center gap-x-8 navu-items">
                     <a href="#Home"><p>home</p></a>
                     <a href="#Skills"><p>skills</p></a>
                     <a href="#Project"><p>projects</p></a>
                     <a href="#About"><p>about</p></a>
-                </div>
+                </div> */}
             </div>
             {/* <div className={navToggle ? "toggle-dropdown" : " invincible"}>
                 <a href="#Home"><p className="py-1">home</p></a>                
