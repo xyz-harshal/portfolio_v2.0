@@ -9,7 +9,6 @@
     background-image: linear-gradient(57.4deg, rgb(249, 206, 183) 4.6%, rgb(234, 174, 202) 26%, rgb(210, 182, 226) 49.1%, rgb(173, 209, 242) 86.5%);
     background-clip: text;
     -webkit-background-clip: text;
-    /* For Safari */
     color: transparent;
 }
 .tech-head-name{
@@ -46,7 +45,7 @@
         font-size: 1.8rem;
     }
     .skills-main{
-        gap: 3.2rem;
+        gap: 2.7rem;
     }
     .tech-head-items{
         gap: 2.7rem;
@@ -58,14 +57,14 @@
         font-size: 3rem;
     }
     .tech-head-name p{
-        font-size: 1.6rem;
+        font-size: 1.9rem;
     }
     .skills-main{
-        gap: 3rem;
+        gap: 2.55rem;
     }
     .tech-head-items{
-        gap: 2rem;
-        font-size: 1.6rem;
+        gap: 2.55rem;
+        font-size: 1.9rem;
     }
 }
 @media(max-width:870px) and (min-width:730px){
@@ -73,14 +72,14 @@
         font-size: 2.5rem;
     }
     .tech-head-name p{
-        font-size: 1.4rem;
+        font-size: 1.7rem;
     }
     .skills-main{
-        gap: 2.5rem;
+        gap: 1.9rem;
     }
     .tech-head-items{
-        gap: 1.5rem;
-        font-size: 1.4rem;
+        gap: 1.9rem;
+        font-size: 1.7rem;
     }
 }
 @media(max-width:730px) and (min-width:550px){
@@ -88,14 +87,14 @@
         font-size: 2.1rem;
     }
     .tech-head-name p{
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
     .skills-main{
-        gap: 2.1rem;
+        gap: 1.4rem;
     }
     .tech-head-items{
         gap: 1.4rem;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 }
 @media(max-width:550px){
@@ -103,13 +102,13 @@
         font-size: 1.8rem;
     }
     .tech-head-name p{
-        font-size: .6rem;
+        font-size: .9rem;
     }
     .skills-main{
-        gap: 1.7rem;
+        gap: .9rem;
     }
     .tech-head-items{
-        gap: 1rem;
+        gap: .9rem;
         font-size: .9rem;
     }
 }

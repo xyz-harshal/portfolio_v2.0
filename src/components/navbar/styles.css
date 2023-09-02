@@ -4,27 +4,25 @@
     z-index: 69;
     color: black;
 }
-.navbar,
-.toggle-dropdown {
+a {
+    color: white;
+    text-decoration: none;
+}
+.invincible {
+    display: none;
+}
+.navbar, .toggle-dropdown {
     margin-left: 8%;
     margin-right: 8%;
 }
 .navbar{
-    /* background: linear-gradient(243.3deg, rgb(247, 164, 216) 35.7%, rgb(115, 102, 252) 121.6%); */
     background: linear-gradient(57.4deg, rgb(249, 206, 183) 4.6%, rgb(234, 174, 202) 26%, rgb(210, 182, 226) 49.1%, rgb(173, 209, 242) 86.5%);
-    border-radius: 2rem;
-    padding: .6rem 1.5rem;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    
+    border-radius: 2rem;
+    padding: .4rem 1.5rem;
 }
 .navbar p{
     font-size: 1.5rem;
-    
-}
-
-a {
-    color: white;
-    text-decoration: none;
 }
 .top-nav-bar-items{
     display: flex;
@@ -33,57 +31,40 @@ a {
     font-family: 'Raleway', sans-serif;
 }
 .top-nav-bar-items:hover a {
-    filter: blur(2.5px);
-    
+    filter: blur(2.5px); 
 }
-
 .top-nav-bar-items:hover a:hover {
-    
     filter: blur(0px);
     transform: translateY(-2px);
-    transition: tranfer;
-    
+    transition: tranfer; 
 }
-
 .top-nav-bar-items a {
     cursor: pointer;
     transition: transform 0.3s ease-in;
     color: black;
     text-decoration: none;
-
 }
 .navu-head{
     font-family: 'Lora', serif;
 }
 @media(min-width:730px) {
-
-    .hamburger,
-    .cancel,
-    .toggle-dropdown {
+    .hamburger, .cancel, .toggle-dropdown {
         display: none;
     }
 }
-
 @media (max-width:730px) {
     .top-nav-bar-items {
         display: none;
     }
     .navbar{
-        padding: .6rem .8rem;
-        
+        padding: .4rem .8rem;
     }
 }
-
-.invincible {
-    display: none;
-}
-.toggle-dropdown{
-    
+.toggle-dropdown{ 
     margin-top: .6rem;
     margin-bottom: .6rem;
 }
 .toggle-dropdown p{
-    /* background: linear-gradient(243.3deg, rgb(247, 164, 216) 35.7%, rgb(115, 102, 252) 121.6%); */
     background: linear-gradient(57.4deg, rgb(249, 206, 183) 4.6%, rgb(234, 174, 202) 26%, rgb(210, 182, 226) 49.1%, rgb(173, 209, 242) 86.5%);
     margin-top:  .6rem;
     margin-bottom: .6rem;
