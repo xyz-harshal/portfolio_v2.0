@@ -1,5 +1,11 @@
 #Project{
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 12%;
+    margin-right: 12%;
     padding-top: 4rem;
+}
+@media (max-width:730px) {
+    #Project{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
 }

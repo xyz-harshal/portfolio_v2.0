@@ -1,38 +1,48 @@
 #Home {
-    padding-top: 140px ;
-    margin-left: 8%;
-    margin-right: 8%;
+    padding-top: 140px;
+    margin-left: 12%;
+    margin-right: 12%;
 }
+
 .home-header {
     font-family: 'Inter', sans-serif;
-    font-size: 70px;
+    font-size: 8rem;
 }
+
 .my-name {
     background-image: linear-gradient(57.4deg, rgb(249, 206, 183) 4.6%, rgb(234, 174, 202) 26%, rgb(210, 182, 226) 49.1%, rgb(173, 209, 242) 86.5%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 }
-.home-location p{
-    font-family: 'Open Sans', sans-serif;
+
+.home-location p {
+    font-family: "Mukta", sans-serif;
+    font-size: 1.3rem;
     font-size: 18px;
 }
-.home-intro p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+
+.home-intro p {
+    font-family: "Mukta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
     display: inline-block;
     width: 65%;
     text-align: center;
 }
-@media(max-width:730px){
-    .home-header{
+
+@media(max-width:730px) {
+    .home-header {
         font-size: 40px;
     }
-    .home-intro p{
+
+    .home-intro p {
         width: 90%;
     }
-    #home{
-        margin-top: 100px;
-        margin-bottom: 100px;
+
+    #Home {
+        margin: 100px 4%;
+        padding: 0;
     }
 }

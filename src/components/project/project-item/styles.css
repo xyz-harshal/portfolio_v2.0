@@ -9,7 +9,7 @@
 .project-item-div{
     padding: 2rem;
     border: 1px solid hsla(0,0%,100%,.2);
-    border-radius: 2rem;
+    border-radius: 1rem;
     transition: .3s ease;
 }
 .project-item-div:hover{
@@ -20,7 +20,7 @@
     font-family: 'Raleway', sans-serif;
 }
 .projects-tech *{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 @media (max-width:1455px) and (min-width:1335px){
     .project-img img{

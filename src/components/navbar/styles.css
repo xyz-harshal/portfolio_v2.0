@@ -1,8 +1,13 @@
 #Navbar{
     position: sticky;
-    top: 1rem;
+    top: 0;
     z-index: 69;
-    color: black;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    color: white;
+    margin-left: 12%;
+    margin-right: 12%;
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
 }
 a {
     color: white;
@@ -11,15 +16,11 @@ a {
 .invincible {
     display: none;
 }
-.navbar, .toggle-dropdown {
-    margin-left: 8%;
-    margin-right: 8%;
-}
 .navbar{
-    background: linear-gradient(57.4deg, rgb(249, 206, 183) 4.6%, rgb(234, 174, 202) 26%, rgb(210, 182, 226) 49.1%, rgb(173, 209, 242) 86.5%);
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    border-radius: 2rem;
-    padding: .4rem 1.5rem;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    padding: .8rem 1.5rem;
+    color: white,!important;
 }
 .navbar p{
     font-size: 1.5rem;
@@ -36,16 +37,17 @@ a {
 .top-nav-bar-items:hover a:hover {
     filter: blur(0px);
     transform: translateY(-2px);
-    transition: tranfer; 
+    transition: transfer; 
+    color: white;
 }
 .top-nav-bar-items a {
     cursor: pointer;
     transition: transform 0.3s ease-in;
-    color: black;
+    color: grey;
     text-decoration: none;
 }
 .navu-head{
-    font-family: 'Lora', serif;
+    font-family: 'Raleway', sans-serif;
 }
 @media(min-width:730px) {
     .hamburger, .cancel, .toggle-dropdown {
@@ -56,25 +58,28 @@ a {
     .top-nav-bar-items {
         display: none;
     }
+    #Navbar{
+        margin-left: 0;
+        margin-right: 0;
+        padding: .5rem;
+    }
     .navbar{
         padding: .4rem .8rem;
     }
 }
 .toggle-dropdown{ 
+    padding-left: .5rem;
+    padding-right: .5rem;
     margin-top: .6rem;
     margin-bottom: .6rem;
+    z-index: 10000;
 }
 .toggle-dropdown p{
-    background: linear-gradient(57.4deg, rgb(249, 206, 183) 4.6%, rgb(234, 174, 202) 26%, rgb(210, 182, 226) 49.1%, rgb(173, 209, 242) 86.5%);
-    margin-top:  .6rem;
-    margin-bottom: .6rem;
-    padding-left: 1rem;
-    padding-right:1rem ;
-    border-radius: 2rem;
     transition: transform 0.3s ease;
     font-size: 1.3rem;
     font-family: 'Raleway', sans-serif;
-    color: black;
+    color: white;
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
 }
 .toggle-dropdown p:hover{
     transform: translateX(10px);
