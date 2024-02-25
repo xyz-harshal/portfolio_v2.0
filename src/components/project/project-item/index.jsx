@@ -5,7 +5,7 @@ let ProjectItems = (props) => {
     return (
         <div className="inline-flex flex-row project-item-div gap-10 flex-wrap justify-evenly">
             <div className="project-img">
-                <a href={props.link}><img src={require("../../../img/" + props.src)} alt='data' /></a>
+                <a href={props.link} target="_blank"><img src={require("../../../img/" + props.src)} alt='data' /></a>
             </div>
             <div className="project-details flex flex-col gap-6 flex-wrap">
                 <p className="pro-item-head">{props.name}</p>
