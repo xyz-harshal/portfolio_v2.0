@@ -1,9 +1,19 @@
-import { FaReact, FaBootstrap} from "react-icons/fa";
+import { FaReact} from "react-icons/fa";
 import { BsFiletypeCss} from "react-icons/bs";
 import { BiLogoJavascript, BiLogoTypescript ,BiLogoTailwindCss} from "react-icons/bi";
 import { TbBrandNextjs  } from "react-icons/tb";
-import { SiSvelte,SiTypescript,SiExpress,SiMongodb,SiNodedotjs  } from "react-icons/si";
+import { SiSvelte,SiExpress,SiMongodb  } from "react-icons/si";
 export const data=[
+    {
+        src:"tripAI.png",
+        name:"TravAI",
+        detail0:"It is a trip planner that books hotels and flights by scraping data to provide the best prices.",
+        detail1:"It suggests must-visit places based on the user's travel purpose, leveraging a genAI.",
+        detail2:" It personalized users itinerary plan, rearrange visit locations, and keep track of their travel plans",
+        link:"https://github.com/vovw/travai",
+        glink:"https://github.com/vovw/travai",
+        stack:[<SiSvelte/>,<BiLogoJavascript/>,<BiLogoTailwindCss/>,<SiExpress/>,<SiMongodb />]
+    },
     {
         src:"anti_vjti.png",
         name:"Anti-VJTI",
@@ -54,14 +64,5 @@ export const data=[
         glink:"https://github.com/xyz-harshal/domestic-waste-management/",
         stack:[<FaReact/>,<BsFiletypeCss/>,<BiLogoJavascript/>,<BiLogoTailwindCss/>]
     },
-    {
-        src:"portfolio.jpg",
-        name:"Personal Portfolio",
-        detail0:"The project you see is my first ever portfolio made from scratch.",
-        detail1:"Some tech stack used in this project has been used for the very first time.",
-        detail2:" Due to it i got to learn a lot of typescript.",
-        link:"https://harshalkamble.vercel.app/",
-        glink:"https://github.com/xyz-harshal/portfolio_v1.0/",
-        stack:[<FaReact/>,<BsFiletypeCss/>,<BiLogoJavascript/>,<BiLogoTailwindCss/>]
-    }
+    
 ]
